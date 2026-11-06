@@ -6140,7 +6140,7 @@
 		)
 		(uuid "1149a82d-940c-466c-a1d8-3e831a2dd973")
 	)
-	(label "GPIO27"
+	(label "GPIO29"
 		(at 247.65 96.52 0)
 		(effects
 			(font
@@ -6180,7 +6180,7 @@
 		)
 		(uuid "1e039e0d-a60f-4e1d-a9d8-edece0f0e800")
 	)
-	(label "SPI1_CS"
+	(label "SPI1_CSN"
 		(at 129.54 35.56 0)
 		(effects
 			(font
@@ -6360,7 +6360,7 @@
 		)
 		(uuid "549ee89b-5c67-4647-93e8-b263cb29a38f")
 	)
-	(label "GPIO25"
+	(label "GPIO30"
 		(at 247.65 143.51 0)
 		(effects
 			(font
@@ -6450,7 +6450,7 @@
 		)
 		(uuid "821450ec-9a2d-42fc-a903-7a61ff720f4f")
 	)
-	(label "GPIO26"
+	(label "GPIO28"
 		(at 247.65 119.38 0)
 		(effects
 			(font

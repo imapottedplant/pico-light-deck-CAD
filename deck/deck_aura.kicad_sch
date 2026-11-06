@@ -8277,8 +8277,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "248161b2-dd18-4d0e-9986-994785893442")
-		(property "Reference" "SW2"
-			(at 201.93 101.6 0)
+		(property "Reference" "RIGHT1"
+			(at 201.93 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8287,7 +8287,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" ""
 			(at 201.93 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8361,7 +8361,7 @@
 		(instances
 			(project "deck_aura"
 				(path "/3db739ea-410d-4543-b73d-61d4188ca21c"
-					(reference "SW2")
+					(reference "RIGHT1")
 					(unit 1)
 				)
 			)
@@ -8379,8 +8379,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e6f1b48-1a5c-4680-b59a-85494e05bc60")
-		(property "Reference" "SW5"
-			(at 201.93 137.16 0)
+		(property "Reference" "DOWN1"
+			(at 201.93 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8389,7 +8389,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" ""
 			(at 201.93 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8463,7 +8463,7 @@
 		(instances
 			(project "deck_aura"
 				(path "/3db739ea-410d-4543-b73d-61d4188ca21c"
-					(reference "SW5")
+					(reference "DOWN1")
 					(unit 1)
 				)
 			)
@@ -8559,8 +8559,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ea807b7-3541-45f1-adc5-051a945a2bc4")
-		(property "Reference" "SW3"
-			(at 201.93 113.03 0)
+		(property "Reference" "ENTER1"
+			(at 201.93 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8569,7 +8569,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" ""
 			(at 201.93 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8643,7 +8643,7 @@
 		(instances
 			(project "deck_aura"
 				(path "/3db739ea-410d-4543-b73d-61d4188ca21c"
-					(reference "SW3")
+					(reference "ENTER1")
 					(unit 1)
 				)
 			)
@@ -8661,8 +8661,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "525a368e-e493-443b-aa8a-7d4d95b01da5")
-		(property "Reference" "SW1"
-			(at 201.93 88.9 0)
+		(property "Reference" "UP1"
+			(at 201.93 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8671,7 +8671,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" ""
 			(at 201.93 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8745,7 +8745,7 @@
 		(instances
 			(project "deck_aura"
 				(path "/3db739ea-410d-4543-b73d-61d4188ca21c"
-					(reference "SW1")
+					(reference "UP1")
 					(unit 1)
 				)
 			)
@@ -9632,8 +9632,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77736d64-94a2-48e7-96e5-959928b7c4cd")
-		(property "Reference" "SW4"
-			(at 201.93 124.46 0)
+		(property "Reference" "LEFT1"
+			(at 201.93 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9642,7 +9642,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" ""
 			(at 201.93 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9716,7 +9716,7 @@
 		(instances
 			(project "deck_aura"
 				(path "/3db739ea-410d-4543-b73d-61d4188ca21c"
-					(reference "SW4")
+					(reference "LEFT1")
 					(unit 1)
 				)
 			)

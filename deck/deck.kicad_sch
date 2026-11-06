@@ -4913,12 +4913,6 @@
 		(uuid "25c36653-ede2-4606-a3b3-6c0f79113db5")
 	)
 	(junction
-		(at 29.21 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79bfeb7b-074c-4058-90fd-478425ff5b85")
-	)
-	(junction
 		(at 29.21 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4935,12 +4929,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfaae4bc-8759-4590-b34e-cce61fe5cb22")
-	)
-	(junction
-		(at 24.13 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cff4ac96-b7b9-43f9-a9d4-7b78c1d2b478")
 	)
 	(junction
 		(at 123.19 80.01)
@@ -5374,7 +5362,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 102.87) (xy 30.48 102.87)
+			(xy 24.13 102.87) (xy 30.48 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6101,16 +6089,6 @@
 			(type default)
 		)
 		(uuid "fc312c6a-251d-4e36-ad8d-38912e8c272c")
-	)
-	(wire
-		(pts
-			(xy 24.13 102.87) (xy 29.21 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdfd1457-d5f0-4593-ab9c-d032ccf4d26e")
 	)
 	(label "GPIO28"
 		(at 58.42 87.63 0)
@@ -6973,7 +6951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
 			(at 38.1 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8265,7 +8243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x03_P1.00mm_Vertical"
 			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9962,83 +9940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 24.13 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "826219ed-c48e-4302-9a4f-ad6309819313")
-		(property "Reference" "#FLG04"
-			(at 24.13 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 21.336 117.602 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 24.13 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "437183cd-5313-498c-9592-80271720bc4d")
-		)
-		(instances
-			(project "deck"
-				(path "/08c5d6ed-f909-4fef-89bf-287bcadcc816"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 234.95 91.44 0)
 		(unit 1)
@@ -10981,83 +10882,6 @@
 			(project "deck"
 				(path "/08c5d6ed-f909-4fef-89bf-287bcadcc816"
 					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 29.21 102.87 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7f8d24a-17a2-43b1-8186-1b10d5c6bc4b")
-		(property "Reference" "#FLG02"
-			(at 29.21 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 34.29 108.204 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "874226ae-585e-4f0e-9d67-0d9ac2a204fc")
-		)
-		(instances
-			(project "deck"
-				(path "/08c5d6ed-f909-4fef-89bf-287bcadcc816"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
